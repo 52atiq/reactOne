@@ -1,0 +1,389 @@
+/* ######################################################################################### TOPBAR CSS */
+.topFixedBanner {
+    background-image: url("../image/banner.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topBannerOverlay{
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+.topContent{
+    margin-top: 12rem;
+}
+.topTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px
+}
+.topSubTitle{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+/* #####################################################################################  SERVICE CSS */
+.serviceMainTitle{
+    /* color: #4C9DED; */
+    color: #0073e6;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+.serviceName{
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+.serviceDescription {
+            color: #2b2b2b;
+            margin-top: 1rem;
+            font-family: 'Raleway', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+}
+
+.serviceCard{
+    margin: 5px 5px 5px 5px;
+    height: 23rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+
+}
+.serviceCard:hover{
+ 
+    box-shadow: 0 0 8px 0 rgba(0,115,230,0.2);
+
+}
+/* ####################################################################################### TOPNAVIGATION CSS */
+.navTitle{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+.navTitleScroll{
+    font-family: 'Montserrat', sans-serif;
+    color: #0073e6  !important;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+.navBackground{
+    -webkit-transition: background-color 400ms linear;;
+    -moz-transition: background-color 400ms linear;;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgba(00, 00, 00, 0.0) !important;        
+}
+.navBackgroundScroll{
+    background-color: #ffffff !important ;
+    -webkit-transition: background-color 400ms linear;;
+    -moz-transition: background-color 400ms linear;;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+}
+
+.navItem{
+    font-size: 16px;
+    text-decoration: none !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffffff ;
+}
+.navItemScroll{
+    font-size: 16px;
+    text-decoration: none !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+     color: #2b2b2b !important;
+
+}
+
+/* ########################################################################################### ANALYSIS CSS  */
+
+.des{
+    font-weight: 400;
+    color: #2b2b2b;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+}
+/* ################################################################################################### SUMMARY CSS */
+
+.summarySection{
+    margin-top: 5rem;
+}
+
+.summaryBanner {
+    background-image: url("../image/banner.jpg");
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.summaryBannerOverlay {
+    position: absolute;
+    min-height: 350px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.countNumber {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.countTitle {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 22px;
+}
+.countSection {
+    margin-top: 16%;
+
+}
+
+.cardTitle {
+font-weight: 600;
+font-size: 22px;
+color: #2b2b2b;
+font-family: 'Raleway', sans-serif;
+}
+.cardSubTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2b2b2b;
+    text-align: justify;
+}
+.iconBullet {
+    color: #0073e6;
+    font-size: 16px;
+    /* text-align: justify; */
+
+}
+.workCard {
+    margin-top: 14%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 2px;
+}
+
+/* ############################################################################# RECENT PROJECT CSS */
+
+.projectCard {
+    border-radius: 2px;
+    border:none !important;
+    margin:2px 2px 2px 2px ;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+
+}
+.projectCardImage {
+    height: 370px;
+    width: 351px;
+}
+.projectCard:hover {
+    box-shadow: 0 0 8px 0 rgba(0,115,230,0.2);
+}
+.projectCardTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+   
+
+}
+.projectCardDes {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* ###############################################################################     COURSES CSS */
+.colMargin {
+    margin-bottom: 5px;
+
+}
+
+.courseImg {
+    width: 100%;
+
+}
+.textJustify {
+      text-align: justify;
+}
+.courseTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.courseDes {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.courseDetails {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    color: #0073e6;
+ 
+    float: left;
+
+}
+
+/* ################################################################################# VIDEO CSS  */
+
+.videoCard {
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+    padding: 6rem 3rem 6rem 3rem;
+    background-color: #ffffff;
+    margin: 50px auto;
+}
+.playBtn {
+    color: #0073e6;
+    font-size: 48px;
+    cursor: pointer;
+}
+.videotitle {
+    color: #0073e6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.videoDes {
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.bigBtnPosition {
+    position: relative;
+    position:sticky;
+    align-items: center;
+}
+
+/* ######################################################################################### CLIENT CSS  */
+.circleImg {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #0073e6;
+    border-radius: 50%;
+
+}
+
+/* ###################################################################################### FOOTER CSS  */
+
+.footerSection {
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+
+    margin-top: 5rem;
+}
+.textDecoration {
+    text-decoration: none;
+}
+.socialLink {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.socialLink:hover {
+    text-decoration: none;
+    color: #2b2b2b;
+
+
+}
+.footerLink {
+    font-family: 'Raleway', sans-serif;
+    text-decoration:none;
+    font-size: 14px;
+    color: #2b2b2b;
+    font-weight: 400;
+}
+
+.footerLink:hover {
+
+  color: #0073e6;
+  text-decoration:none;
+}
+.copyrightSection  {
+    padding: 20px 20px 20px 20px;
+    background-color: #0073e6;
+}
+
+.copyrightLink  {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+   
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.copyrightLink:hover {
+    color: #000000;
+   
+
+  
+}
+
+/* ########################################################################################## PAGETOP CSS  */
+
+.topFixedPage {
+    background-image: url("../image/banner.jpg");
+    min-height: 280px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topPageOverlay{
+    position: absolute;
+    min-height: 280px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+.topPageContent {
+    margin-top: 8rem;
+}
+.pageTitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/* ############################################################### CONATCT-SECTION CSS   */
+
+.form-control:focus {
+    border-radius: 2px !important ;
+    border-color: #0073e6 !important;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+    
+}
