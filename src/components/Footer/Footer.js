@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope,faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook ,faYoutube} from '@fortawesome/free-brands-svg-icons'
+import { Link } from 'react-router-dom';
 
 export default class Footer extends Component {
     render() {
@@ -12,9 +13,9 @@ export default class Footer extends Component {
                     <Row>
                         <Col lg={3} md={6} sm={12} className="p-5 textJustify " >
                         <h1 className="serviceName" > Follow Me</h1>
-                          <a className="textDecoration socialLink" href="#" >  <FontAwesomeIcon   icon={faFacebook} />  Facebook  </a> <br />
+                          <Link className="textDecoration socialLink" target="_blank" href="//www.facebook.com">  <FontAwesomeIcon   icon={faFacebook} />  Facebook  </Link> <br />
 
-                          <a className="textDecoration socialLink"  href="#" > <FontAwesomeIcon   icon={faYoutube} /> Youtube </a> 
+                          <a className="textDecoration socialLink"  href="//wwww.youtube.com" > <FontAwesomeIcon   icon={faYoutube} /> Youtube </a> 
                         
                         </Col>
 
@@ -31,18 +32,18 @@ export default class Footer extends Component {
                       
                         <Col lg={3} md={6} sm={12} className="p-5 textJustify">
                         <h1 className="serviceName" > Information </h1>
-                        <a  className="textDecoration footerLink" href="#" > About Me </a>  <br/>
+                        <Link  className="textDecoration footerLink" to="/about" > About Me </Link>  <br/>
                           <a className="textDecoration footerLink" href="#" > My Resume </a>  <br />
                         
-                          <a className="textDecoration footerLink" href="#" > Contact Me </a> 
+                          <Link className="textDecoration footerLink" to="/contact" > Contact Me </Link> 
                         </Col>
 
                         <Col lg={3} md={6} sm={12} className="p-5 textJustify" >
                         <h1 className="serviceName" > Legal</h1>
-                        <a className="textDecoration footerLink" href="#" > Refund Policy </a>  <br/>
-                          <a className="textDecoration footerLink" href="#" > Term And Condition</a>  <br />
+                        <Link  className="textDecoration footerLink" to="/Refund" > Refund Policy </Link>  <br/>
+                          <Link className="textDecoration footerLink" to="/Terms" > Term And Condition</Link>  <br />
                         
-                          <a className="textDecoration footerLink" href="#" > Privacy Policy </a> 
+                          <Link className="textDecoration footerLink" to="/Privacy" > Privacy Policy </Link> 
                         </Col>
                        
                       

@@ -73,6 +73,7 @@
 }
 /* ####################################################################################### TOPNAVIGATION CSS */
 .navTitle{
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff !important;
     font-weight: 700;
@@ -80,6 +81,7 @@
 
 }
 .navTitleScroll{
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: #0073e6  !important;
     font-weight: 700;
@@ -99,6 +101,7 @@
     -moz-transition: background-color 400ms linear;;
     -o-transition: background-color 400ms linear;
     transition: background-color 400ms linear;
+    box-shadow: 0 0 6px 0 rgba(0,115,230,0.3);
 }
 
 .navItem{
@@ -386,4 +389,46 @@ font-family: 'Raleway', sans-serif;
     border-color: #0073e6 !important;
     box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
     
+}
+
+/* ############################################################################  PROJECT DETAILS CSS  */
+
+.projectDetailsImg {
+    width: 100%;
+}
+
+/* ##################################################################################### LINK STYLE CSS   */
+
+.link-style {
+    color: white !important;
+    text-decoration: none !important;
+}
+.link-style:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+/* ##############################################################################3 COURSE DETAILS CSS  */
+
+.topPageContentCourse {
+    margin-top: 6rem;
+}
+
+.courseFullTitle {
+    color: white;
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 600;
+}
+.courseSubTitle {
+    color: white;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+}
+.courseDetailsDes {
+    color: white ;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
 }

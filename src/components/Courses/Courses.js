@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 export default class Courses extends Component {
     render() {
@@ -17,7 +18,7 @@ export default class Courses extends Component {
                                <Col lg={6} md={6} sm={12}>
                                    <h5 className="textJustify courseTitle" > Web Development</h5>
                                    <p className="textJustify courseDes" >Sanctus et lorem dolore gubergren invidunt amet sed lorem, accusam duo invidunt et amet dolor justo consetetur duo, amet duo. </p>
-                                   <a className="textJustify courseDetails" href="#"> Details</a>
+                                   <Link className="textJustify courseDetails" to="/CourseDetails"> Details</Link>
                                </Col>
                            </Row>
                        </Col>
@@ -31,7 +32,7 @@ export default class Courses extends Component {
                                <Col lg={6} md={6} sm={12}>
                                <h5 className="textJustify courseTitle" > Web Development</h5>
                                    <p className="textJustify courseDes">Sanctus et lorem dolore gubergren invidunt amet sed lorem, accusam duo invidunt et amet dolor justo consetetur duo, amet duo. </p>
-                                   <a className="textJustify courseDetails float-left" href="#"> Details</a>
+                                   <Link className="textJustify courseDetails" to="/CourseDetails"> Details</Link>
                                </Col>
                            </Row>
                        </Col>
@@ -44,7 +45,7 @@ export default class Courses extends Component {
                                <Col lg={6} md={6} sm={12}>
                                    <h5 className="textJustify courseTitle" > Web Development</h5>
                                    <p className="textJustify courseDes" >Sanctus et lorem dolore gubergren invidunt amet sed lorem, accusam duo invidunt et amet dolor justo consetetur duo, amet duo. </p>
-                                   <a className="textJustify courseDetails" href="#"> Details</a>
+                                   <Link className="textJustify courseDetails" to="/CourseDetails"> Details</Link>
                                </Col>
                            </Row>
                        </Col>
@@ -57,7 +58,7 @@ export default class Courses extends Component {
                                <Col lg={6} md={6} sm={12}>
                                    <h5 className="textJustify courseTitle" > Web Development</h5>
                                    <p className="textJustify courseDes" >Sanctus et lorem dolore gubergren invidunt amet sed lorem, accusam duo invidunt et amet dolor justo consetetur duo, amet duo. </p>
-                                   <a className="textJustify courseDetails" href="#"> Details</a>
+                                   <Link className="textJustify courseDetails" to="/CourseDetails"> Details</Link>
                                </Col>
                            </Row>
                        </Col>
